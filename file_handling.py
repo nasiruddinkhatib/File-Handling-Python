@@ -1,8 +1,9 @@
-# We use here readlines mode to read the Content of Myfile.txt  line by line
-# a = open("Myfile.txt","r")
-# c = a.readlines()  #readline will read the first row written in the txt file if we again call readline it will read the next line
-# print(c)
-# a.close()   # this will close the file that we have opened it is very important to close the file
+#*-*-*-*-*-*-*-*-*-*-*-*-*File_Handling*-*-*-*-*-*-*-*-*-*-*-*--
+# First We Created a file name as Myfile.txt then we use here readlines mode to read the Content of Myfile.txt  line by line
+a = open("Myfile.txt","r") # Created file and make it at read mode to read the content of file 
+c = a.readlines()  #readline will read the first row written in the txt file if we again call readline it will read the next line
+print(c)
+a.close()   # this will close the file that we have opened it is very important to close the file
 
 # We Use Here Read(r) Mode it will read entire file
 # file=open("myfile.txt","r")
